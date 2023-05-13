@@ -1,0 +1,93 @@
+.quiz {
+    position: relative;
+    z-index: 2;
+    padding-bottom: 160px;
+    background: #EFF4F9;
+    &__title {
+        width: 956px;
+        margin: 0 auto 50px;
+        &--color {
+            color: #298FEB;
+        }
+    }
+    &__card {
+        position: relative;
+        padding: 109px 0;
+        min-height: 576px;
+        background: rgba(255, 255, 255, 0.7);
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 30px;
+        &::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100px;
+            width: 430px;
+            height: 423px;
+            background: url('../img/quiz/quiz-bg.png') no-repeat;
+            z-index: -1;
+        }
+    }
+    &__card-title {
+        font-weight: 900;
+        font-size: 48px;
+        line-height: 58px;
+        color: #303030;
+        text-align: center;
+        margin-bottom: 52px;
+    }
+    &__box {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, 405px);
+        grid-gap: 20px;
+        max-width: 830px;
+        margin: 0 auto 45px;
+    }
+    &__radio {
+        display: none;
+
+        &:checked+.quiz__label__text {
+            background: #298FEB;
+            border: 3px solid transparent;
+            color: #fff;
+        }
+    }
+
+    &__input-group {
+        width: 405px;
+    }
+
+    &__label {
+        display: block;
+        width: 100%;
+        height: 60px;
+        cursor: pointer;
+        border: 3px solid #298FEB;
+        border-radius: 30px;
+
+        &__text {
+            width: 100%;
+            height: 100%;
+            background: #FFFFFF;
+            border-radius: 30px;
+            display: flex;
+            align-items: center;
+            padding: 0 20px;
+            font-size: 18px;
+            line-height: 22px;
+        }
+    }
+    &__button-inner {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    &__card-button {
+        width: 405px;
+        height: 60px;
+        margin-right: 20px;
+        &:last-child {
+            margin-right: 0;
+        }
+    }
+}

@@ -1,0 +1,22 @@
+.help {
+    padding: 50px 0;
+    background-color: #fff;
+    &__title {
+        color: #298FEB;
+        margin-bottom: 37px;
+    }
+    &__descr {
+        width: 765px;
+        font-size: 25px;
+        line-height: 120%;
+        color: #303030;
+        margin: 0 auto 45px;
+        text-align: center;
+    }
+    &__button {
+        display: block;
+        width: 520px;
+        height: 60px;
+        margin: 0 auto;
+    }
+}

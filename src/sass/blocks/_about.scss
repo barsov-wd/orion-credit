@@ -1,0 +1,23 @@
+.about {
+    padding-bottom: 160px;
+    background: #EFF4F9;
+    &__inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__content-title {
+        text-align: left;
+        margin-bottom: 47px;
+    }
+    &__content-descr {
+        width: 790px;
+        font-size: 20px;
+        line-height: 24px;
+        color: #303030;
+        &--color {
+            font-weight: 900;
+            color: #298FEB;
+        }
+    }
+}

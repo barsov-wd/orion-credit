@@ -1,0 +1,50 @@
+.simply {
+    padding: 160px 0;
+    background: #EFF4F9;
+    position: relative;
+    z-index: 1;
+    &__title {
+        margin-bottom: 50px;
+    }
+    &__items {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__item {
+        padding: 30px 30px 51px 30px;
+        width: 520px;
+        min-height: 262px;
+        background: #FFFFFF;
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 30px;
+    }
+    &__item-title {
+        font-weight: 900;
+        font-size: 48px;
+        line-height: 58px;
+        color: #287C00;
+        margin-bottom: 22px;
+    }
+    &__item-subtitle {
+        font-weight: 900;
+        font-size: 25px;
+        line-height: 30px;
+        color: #298FEB;
+        margin-bottom: 17px;
+    }
+    &__item-descr {
+        font-size: 20px;
+        line-height: 24px;
+        color: #303030;
+        &--one {
+            width: 375px;
+        }
+        &--two {
+            width: 393px;
+        }
+        &--three {
+            width: 355px;
+        }
+    }
+}

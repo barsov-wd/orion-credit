@@ -1,0 +1,89 @@
+.last {
+    position: relative;
+    z-index: 2;
+    padding-bottom: 160px;
+    background: #EFF4F9;
+    &__card {
+        position: relative;
+        padding: 109px 0;
+        min-height: 576px;
+        background: rgba(255, 255, 255, 0.7);
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.15);
+        border-radius: 30px;
+
+        &::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100px;
+            width: 430px;
+            height: 423px;
+            background: url('../img/quiz/quiz-bg.png') no-repeat;
+            z-index: -1;
+        }
+    }
+    &__card-title {
+        font-weight: 900;
+        font-size: 48px;
+        line-height: 58px;
+        color: #303030;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    &__card-text {
+        font-size: 28px;
+        line-height: 34px;
+        color: #303030;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+    &__card-form {
+        width: 830px;
+        margin: 0 auto;
+    }
+    &__form-inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 25px;
+    }
+    &__input-group {
+        width: 405px;
+    }
+    &__input {
+        width: 100%;
+        height: 60px;
+        border: none;
+        border: 3px solid #298FEB;
+        border-radius: 30px;
+        background-color: transparent;
+        padding: 0 20px;
+        font-size: 18px;
+        line-height: 21px;
+        color: rgba(48, 48, 48, 0.5);
+    
+        &::placeholder {
+            color: rgba(48, 48, 48, 0.5);
+        }
+    
+        &:focus {
+            outline: none;
+        }
+    }
+    &__button-inner {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 25px;
+    }
+    &__button {
+        width: 405px;
+        height: 60px;
+    }
+    &__card-copy {
+        font-size: 16px;
+        line-height: 19px;
+        text-align: center;
+        color: #303030;
+    }
+}

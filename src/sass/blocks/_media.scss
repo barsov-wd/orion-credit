@@ -1,0 +1,2331 @@
+@media (max-width: 1810px) {
+    .calc {
+        &__content {
+            &::after {
+                width: 550px;
+                height: 550px;
+                background-size: contain;
+                bottom: -140px;
+                right: -26px;
+            }
+        }
+    }
+    .profitable {
+        &__item {
+            &--two {
+                &::before {
+                    width: 380px;
+                    height: 380px;
+                    background-size: contain;
+                    right: -26px;
+                    top: -165px;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1669px) {
+    .container {
+        max-width: 1540px;
+    }
+    .promo {
+        &__image {
+            width: 1010px;
+            top: -40px;
+        }
+        &__content {
+            padding-top: 127px;
+            padding-bottom: 115px;
+        }
+        &__title {
+            font-size: 52px;
+            line-height: 64px;
+            width: 680px;
+            margin-bottom: 40px;
+        }
+    }
+    .info {
+        padding-bottom: 85px;
+    }
+    .features {
+        padding-bottom: 150px;
+        &__item {
+            width: 370px;
+        }
+    }
+    .title {
+        font-size: 46px;
+        line-height: 56px;
+    }
+    .calc {
+        padding-bottom: 150px;
+        &__box {
+            width: 760px;
+            &::before {
+                width: 540px;
+                height: 540px;
+                top: -145px;
+                background-size: contain;
+            }
+        }
+        &__content {
+            padding: 40px 120px;
+            width: 760px;
+            &::after {
+                right: -20px;
+                width: 545px;
+                height: 545px;
+                bottom: -145px;
+            }
+        }
+    }
+    .steps {
+        padding-bottom: 150px;
+        &__item {
+            width: 370px;
+        }
+    }
+    .conditions {
+        padding-bottom: 150px;
+        &__image {
+            width: 859px;
+            object-fit: contain;
+        }
+    }
+    .about {
+        padding-bottom: 150px;
+    }
+    .simply {
+        padding: 150px 0;
+        &__item {
+            width: 485px;
+        }
+    }
+    .quiz {
+        padding-bottom: 150px;
+    }
+    .last {
+        padding-bottom: 150px;
+    }
+    .profitable {
+        padding-bottom: 180px;
+        &__item {
+            width: 760px;
+            &--two {
+                &::before {
+                    right: -21px;
+                    width: 375px;
+                    height: 375px;
+                }
+            }
+        }
+    }
+    .faq {
+        padding-bottom: 150px;
+    }
+    .reviews {
+        padding-bottom: 150px;
+        &__item {
+            width: 500px;
+            min-height: 465px;
+        }
+        &__item-avatar {
+            width: 120px;
+            object-fit: contain;
+        }
+        &__item-name {
+            font-size: 24px;
+        }
+    }
+}
+
+@media (max-width: 1600px) {
+    .container {
+        max-width: 1440px;
+    }
+    .promo {
+        &__content {
+            padding-top: 120px;
+            padding-bottom: 110px;
+        }
+        &__image {
+            width: 970px;
+            top: -25px;
+        }
+        &__title {
+            font-size: 50px;
+            line-height: 62px;
+        }
+        &__list-item {
+            font-size: 24px;
+            margin-bottom: 25px;
+        }
+    }
+    .info {
+        padding-bottom: 82px;
+    }
+    .features {
+        padding-bottom: 145px;
+        &__item {
+            width: 345px;
+        }
+    }
+    .calc {
+        padding-bottom: 145px;
+        &__box {
+            width: 710px;
+        }
+        &__content {
+            width: 710px;
+            padding: 40px 95px;
+        }
+    }
+    .steps {
+        padding-bottom: 145px;
+        &__item {
+            width: 345px;
+        }
+    }
+    .conditions {
+        padding-bottom: 145px;
+        &__image {
+            width: 775px;
+        }
+        &__item {
+            margin-bottom: 100px;
+        }
+        &__item-title {
+            font-size: 24px;
+            margin-bottom: 22px;
+        }
+    }
+    .about {
+        padding-bottom: 145px;
+        &__image {
+            width: 625px;
+        }
+    }
+    .simply {
+        padding: 145px 0;
+        &__item {
+            width: 455px;
+        }
+    }
+    .quiz {
+        padding-bottom: 145px;
+        &__card {
+            &::before {
+                width: 400px;
+                height: 402px;
+                left: -65px;
+                background-size: contain;
+            }
+        }
+        &__card-title {
+            font-size: 46px;
+        }
+    }
+    .last {
+        padding-bottom: 145px;
+        &__card-title {
+            font-size: 46px;
+        }
+    }
+    .profitable {
+        padding-bottom: 175px;
+        &__item {
+            width: 710px;
+        }
+    }
+    .faq {
+        padding-bottom: 145px;
+    }
+    .reviews {
+        padding-bottom: 145px;
+        &__item {
+            width: 465px;
+            min-height: 460px;
+        }
+        &__item-avatar {
+            width: 115px;
+        }
+        &__item-wrap {
+            margin-bottom: 20px;
+        }
+        &__item-name {
+            font-size: 22px;
+        }
+    }
+}
+
+@media (max-width: 1500px) {
+    .container {
+        max-width: 1340px;
+    }
+    .promo {
+        &__content {
+            padding-top: 115px;
+            padding-bottom: 105px;
+        }
+        &__title {
+            font-size: 48px;
+            line-height: 60px;
+        }
+        &__image {
+            width: 890px;
+        }
+    }
+    .info {
+        padding-bottom: 77px;
+    }
+    .features {
+        padding-bottom: 140px;
+        &__item {
+            width: 320px;
+        }
+        &__item-text {
+            font-size: 18px;
+            line-height: 22px;
+        }
+    }
+    .calc {
+        padding-bottom: 140px;
+        &__title {
+            margin-bottom: 48px;
+        }
+        &__box {
+            width: 660px;
+            padding: 40px 90px 45px;
+        }
+        &__content {
+            width: 660px;
+            padding: 40px 70px;
+        }
+    }
+    .steps {
+        padding-bottom: 140px;
+        &__title {
+            margin-bottom: 48px;
+        }
+        &__item {
+            width: 320px;
+            padding: 20px 18px 20px 20px;
+        }
+        &__item-text {
+            font-size: 16px;
+            line-height: 20px;
+            margin-left: 20px;
+        }
+    }
+    .conditions {
+        padding-bottom: 140px;
+        &__image {
+            width: 680px;
+        }
+        &__item {
+            margin-bottom: 80px;
+        }
+    }
+    .about {
+        padding-bottom: 140px;
+        &__content-descr {
+            width: 720px;
+            font-size: 18px;
+            line-height: 22px;
+        }
+        &__content-title {
+            margin-bottom: 35px;
+        }
+    }
+    .simply {
+        padding: 140px 0;
+        &__title {
+            margin-bottom: 48px;
+        }
+        &__item {
+            width: 425px;
+        }
+        &__item-descr {
+            font-size: 18px;
+            line-height: 22px;
+            &--two {
+                width: 390px;
+            }
+        }
+    }
+    .quiz {
+        padding-bottom: 140px;
+        &__title {
+            margin: 0 auto 48px;
+        }
+        &__card {
+            padding: 100px 0;
+            min-height: 558px;
+            &::before {
+                width: 370px;
+                height: 372px;
+                left: -90px;
+            }
+        }
+        &__card-title {
+            font-size: 44px;
+            margin-bottom: 50px;
+        }
+    }
+    .last {
+        padding-bottom: 140px;
+        &__card {
+            padding: 100px 0;
+            min-height: 558px;
+            &::before {
+                width: 370px;
+                height: 372px;
+                left: -90px;
+                background-size: contain;
+            }
+        }
+        &__card-title {
+            font-size: 44px;
+        }
+    }
+    .profitable {
+        padding-bottom: 140px;
+        &__title {
+            margin-bottom: 48px;
+        }
+        &__item {
+            width: 660px;
+        }
+        &__item-title {
+            font-size: 44px;
+            line-height: 54px;
+        }
+    }
+    .faq {
+        padding-bottom: 140px;
+        &__title {
+            margin-bottom: 48px;
+        }
+        &__box {
+            max-width: 1270px;
+        }
+    }
+    .reviews {
+        padding-bottom: 140px;
+        &__title {
+            margin-bottom: 48px;
+        }
+        &__item {
+            width: 435px;
+            min-height: 445px;
+        }
+        &__item-avatar {
+            width: 110px;
+        }
+        &__item-text {
+            font-size: 18px;
+            line-height: 22px;
+        }
+    }
+    .footer {
+        &__inner {
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+    }
+}
+
+@media (max-width: 1400px) {
+    .container {
+        max-width: 1240px;
+    }
+    .header {
+        padding: 22px 0;
+        &__contacts-button {
+            width: 355px;
+            padding: 15px 38px;
+        }
+    }
+    .promo {
+        &__content {
+            padding-top: 105px;
+            padding-bottom: 100px;
+        }
+        &__title {
+            font-size: 46px;
+            line-height: 59px;
+            width: 595px;
+        }
+        &__image {
+            width: 820px;
+        }
+    }
+    .info {
+        padding-bottom: 72px;
+    }
+    .features {
+        padding-bottom: 135px;
+        &__item {
+            width: 295px;
+            min-height: 115px;
+        }
+        &__item-image {
+            width: 75px;
+            object-fit: contain;
+            top: 50%;
+            transform: translateY(-50%);
+        }
+    }
+    .title {
+        font-size: 44px;
+        line-height: 54px;
+    }
+    .calc {
+        padding-bottom: 135px;
+        &__box {
+            width: 610px;
+            min-height: 410px;
+            padding: 40px 80px 45px;
+            &::before {
+                width: 495px;
+                height: 495px;
+                top: -135px;
+            }
+        }
+        &__box-title {
+            margin: 0 auto 37px;
+        }
+        &__content {
+            width: 610px;
+            min-height: 410px;
+            &::after {
+                width: 505px;
+                height: 500px;
+                bottom: -125px;
+            }
+        }
+        &__block {
+            &--one {
+                margin-bottom: 75px;
+            }
+        }
+        &__content-title {
+            margin-bottom: 37px;
+        }
+        &__content-inner {
+            margin-bottom: 32px;
+        }
+        &__content-result-title {
+            font-size: 44px;
+            line-height: 54px;
+            margin-bottom: 4px;
+        }
+        &__content-button {
+            width: 470px;
+            margin-bottom: 32px;
+        }
+    }
+    .steps {
+        padding-bottom: 135px;
+        &__item {
+            width: 290px;
+        }
+        &__item-text {
+            margin-left: 25px;
+        }
+    }
+    .conditions {
+        padding-bottom: 135px;
+        &__image {
+            width: 670px;
+        }
+        &__item {
+            margin-bottom: 70px;
+        }
+        &__item-title {
+            font-size: 20px;
+            margin-bottom: 20px;
+        }
+        &__list-item {
+            font-size: 18px;
+            &--first {
+                &::before {
+                    left: 55px;
+                }
+            }
+            &--modified {
+                &::before {
+                    left: 35px;
+                }
+            }
+            &--last {
+                &::before {
+                    left: -20px;
+                }
+            }
+        }
+    }
+    .about {
+        padding-bottom: 135px;
+        &__content-descr {
+            width: 610px;
+        }
+    }
+    .help {
+        padding: 48px 0;
+        &__title {
+            margin-bottom: 35px;
+        }
+        &__descr {
+            margin: 0 auto 42px;
+        }
+    }
+    .simply {
+        padding: 135px 0;
+        &__item {
+            width: 390px;
+            padding: 30px 30px 40px 30px;
+        }
+        &__item-title {
+            font-size: 46px;
+            line-height: 56px;
+        }
+        &__item-subtitle {
+            font-size: 24px;
+        }
+        &__item-descr {
+            &--two {
+                width: 345px;
+            }
+        }
+    }
+    .quiz {
+        padding-bottom: 135px;
+        &__card {
+            padding: 95px 0;
+            &::before {
+                width: 350px;
+                height: 352px;
+            }
+        }
+    }
+    .last {
+        padding-bottom: 135px;
+        &__card {
+            padding: 95px 0;
+            &::before {
+                width: 350px;
+                height: 352px;
+            }
+        }
+        &__card-title {
+            width: 738px;
+            margin: 0 auto 25px;
+        }
+        &__card-text {
+            margin-bottom: 45px;
+        }
+    }
+    .profitable {
+        padding-bottom: 135px;
+        &__item {
+            width: 610px;
+            min-height: 450px;
+            padding: 45px 35px;
+        }
+        &__item-title {
+            font-size: 42px;
+            line-height: 52px;
+        }
+        &__item-descr {
+            margin-bottom: 28px;
+        }
+        &__item-text {
+            font-size: 22px;
+            line-height: 27px;
+        }
+        &__item-text-bold {
+            font-size: 22px;
+            line-height: 28px;
+        }
+    }
+    .faq {
+        padding-bottom: 135px;
+        &__box {
+            max-width: 1170px;
+        }
+        &__item {
+            &--active {
+                .faq__item__text {
+                    font-size: 18px;
+                    line-height: 22px;
+                }
+            }
+        }
+    }
+    .reviews {
+        padding-bottom: 135px;
+        &__item {
+            width: 400px;
+        }
+        &__item-avatar {
+            width: 100px;
+        }
+        &__item-name {
+            margin-left: 25px;
+            font-size: 20px;
+        }
+        &__item-text {
+            margin-bottom: 27px;
+        }
+    }
+    .footer {
+        &__inner {
+            align-items: center;
+        }
+    }
+}
+
+@media (max-width: 1300px) {
+    .container {
+        max-width: 1140px;
+    }
+    .promo {
+        &__content {
+            padding-top: 90px;
+            padding-bottom: 80px;
+        }
+        &__title {
+            margin-bottom: 38px;
+        }
+        &__image {
+            width: 725px;
+        }
+    }
+    .info {
+        padding-bottom: 70px;
+        &__items {
+            width: 1140px;
+        }
+    }
+    .features {
+        padding-bottom: 130px;
+        &__item {
+            width: 274px;
+        }
+        &__item-image {
+            width: 60px;
+        }
+    }
+    .calc {
+        padding-bottom: 130px;
+        &__title {
+            width: 832px;
+            margin: 0 auto 48px;
+        }
+        &__box {
+            width: 560px;
+        }
+        &__content {
+            width: 560px;
+            padding: 40px 55px;
+        }
+        &__content-button {
+            width: 447px;
+        }
+    }
+    .steps {
+        padding-bottom: 130px;
+        &__title {
+            width: 832px;
+            margin: 0 auto 48px;
+        }
+        &__item {
+            width: 267px;
+        }
+        &__item-text {
+            margin-left: 20px;
+        }
+    }
+    .conditions {
+        &__title {
+            width: 832px;
+            margin: 0 auto 18px;
+        }
+        &__image {
+            width: 570px;
+        }
+        &__item {
+            margin-bottom: 60px;
+        }
+    }
+    .about {
+        padding-bottom: 130px;
+        &__image {
+            width: 530px;
+        }
+    }
+    .help {
+        &__title {
+            width: 832px;
+            margin: 0 auto 35px;
+        }
+        &__descr {
+            margin: 0 auto 40px;
+        }
+    }
+    .simply {
+        padding: 130px 0;
+        &__item {
+            width: 355px;
+        }
+        &__item-descr {
+            &--three {
+                width: 330px;
+            }
+        }
+    }
+    .quiz {
+        padding-bottom: 130px;
+        &__card {
+            padding: 92px 0;
+            &::before {
+                width: 320px;
+                height: 320px;
+                left: -110px;
+            }
+        }
+    }
+    .last {
+        padding-bottom: 130px;
+        &__card {
+            padding: 92px 0;
+            &::before {
+                width: 320px;
+                height: 320px;
+                left: -110px;
+            }
+        }
+    }
+    .profitable {
+        padding-bottom: 130px;
+        &__item {
+            width: 560px;
+        }
+        &__item-title {
+            font-size: 38px;
+            line-height: 48px;
+            margin-bottom: 20px;
+        }
+        &__item-descr {
+            font-size: 18px;
+        }
+    }
+    .faq {
+        padding-bottom: 130px;
+        &__box {
+            max-width: 1010px;
+        }
+        &__item {
+            &__title {
+                font-size: 22px;
+                line-height: 28px;
+            }
+        }
+    }
+    .reviews {
+        padding-bottom: 130px;
+        &__item {
+            width: 365px;
+            min-height: 410px;
+            padding: 25px 25px 40px 25px;
+        }
+        &__item-name {
+            font-size: 18px;
+        }
+        &__item-text {
+            margin-bottom: 25px;
+        }
+    }
+}
+
+@media (max-width: 1199px) {
+    .container {
+        max-width: 960px;
+    }
+    .header {
+        padding: 20px 0;
+        &__contacts {
+            display: flex;
+            align-items: center;
+        }
+        &__contacts-button {
+            display: none;
+        }
+        &__button-mobile {
+            display: inline-block;
+            border: none;
+            outline: none;
+            background: transparent;
+            margin-left: 15px;
+        }
+    }
+    .promo {
+        &__content {
+            padding-top: 75px;
+            padding-bottom: 70px;
+        }
+        &__image {
+            width: 535px;
+            top: 65px;
+            object-fit: contain;
+        }
+        &__title {
+            margin-bottom: 35px;
+        }
+        &__list-item {
+            font-size: 22px;
+            line-height: 28px;
+        }
+        &__text-small {
+            font-size: 18px;
+            line-height: 22px;
+        }
+    }
+    .info {
+        padding-bottom: 50px;
+        &__items {
+            width: 100%;
+            justify-content: center;
+            flex-wrap: wrap;
+            row-gap: 25px;
+        }
+    }
+    .features {
+        &__items {
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        &__item {
+            width: 385px;
+        }
+    }
+    .calc {
+        &__inner {
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        &__box {
+            padding: 53px 135px;
+            width: 790px;
+            min-height: 433px;
+            margin-bottom: 25px;
+            &::before {
+                width: 374px;
+                height: 374px;
+                left: -100px;
+                top: -150px;
+                background-size: contain;
+            }
+        }
+        &__box-title {
+            margin-bottom: 45px;
+        }
+        &__content {
+            width: 790px;
+            padding: 52px 135px;
+            &::after {
+                width: 342px;
+                height: 336px;
+                background-size: contain;
+                right: -90px;
+                bottom: -83px;
+            }
+        }
+        &__content-title {
+            margin-bottom: 42px;
+        }
+        &__content-button {
+            width: 520px;
+        }
+    }
+    .steps {
+        &__items {
+            justify-content: center;
+            gap: 20px;
+        }
+    }
+    .conditions {
+        padding-bottom: 130px;
+        &__inner {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        &__content-right,
+        &__content-left {
+            padding-top: 0;
+        }
+        &__item {
+            margin-bottom: 35px;
+        }
+        &__title {
+            width: 780px;
+            margin: 0 auto 50px;
+        }
+        &__image {
+            width: 530px;
+        }
+        &__list {
+            padding-left: 10px;
+        }
+        &__content-right {
+            text-align: center;
+        }
+        &__item-title {
+            font-size: 24px;
+            line-height: 29px;
+        }
+        &__list-item {
+            &--one,
+            &--three {
+                &::before {
+                    left: 35px;
+                }
+            }
+            &--two {
+                &::before {
+                    left: 50px;
+                }
+            }
+            &--four {
+                &::before {
+                    left: 10px;
+                }
+            }
+            &--five {
+                &::before {
+                    left: 0;
+                }
+            }
+            &--six {
+                &::before {
+                    left: 82px;
+                }
+            }
+            &--seven,
+            &--nine {
+                &::before {
+                    left: 30px;
+                }
+            }
+            &--eight {
+                &::before {
+                    left: 8px;
+                }
+            }
+            &--first {
+                &::before {
+                    left: 48px;
+                }
+            }
+            &--modifed {
+                &::before {
+                    left: 39px;
+                }
+            }
+            &--last {
+                &::before {
+                    left: 5px;
+                }
+            }
+        }
+    }
+    .about {
+        &__inner {
+            flex-direction: column;
+        }
+        &__content-descr {
+            width: 832px;
+            text-align: center;
+            margin: 0 auto 35px;
+        }
+        &__content-title {
+            text-align: center;
+            margin-bottom: 47px;
+        }
+        &__image {
+            width: 675px;
+        }
+    }
+    .help {
+        padding: 58px 0;
+        &__title {
+            margin: 0 auto 25px;
+        }
+        &__descr {
+            font-size: 26px;
+            margin: 0 auto 25px;
+        }
+    }
+    .simply {
+        &__items {
+            flex-direction: column;
+        }
+        &__item {
+            width: 520px;
+            min-height: 229px;
+            margin-bottom: 25px;
+            padding: 33px 63px;
+            text-align: center;
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+        &__item-title {
+            margin-bottom: 20px;
+        }
+        &__item-subtitle {
+            margin-bottom: 10px;
+        }
+        &__item-descr {
+            margin: 0 auto;
+        }
+    }
+    .quiz {
+        &__card {
+            padding: 90px 0;
+            &::before {
+                top: -55px;
+                left: -79px;
+                width: 308px;
+                height: 303px;
+                background-size: contain;
+            }
+        }
+        &__card-title {
+            margin-bottom: 40px;
+        }
+    }
+    .last {
+        &__card {
+            padding: 90px 0;
+            &::before {
+                top: -55px;
+                left: -79px;
+                width: 308px;
+                height: 303px;
+                background-size: contain;
+            }
+        }
+        &__card-title {
+            margin-bottom: 40px;
+        }
+    }
+    .profitable {
+        &__inner {
+            flex-direction: column;
+        }
+        &__item {
+            padding: 29px 124px;
+            width: 832px;
+            min-height: 400px;
+            margin-bottom: 20px;
+            &:last-child {
+                margin-bottom: 0;
+            }
+            &--two {
+                &::before {
+                    width: 373px;
+                    height: 373px;
+                    background-size: contain;
+                    top: 150px;
+                    right: -70px;
+                }
+            }
+        }
+        &__item-title {
+            font-size: 46px;
+            margin-bottom: 15px;
+        }
+        &__item-descr {
+            margin-bottom: 20px;
+        }
+    }
+    .faq {
+        &__item {
+            &__title {
+                padding-left: 28px;
+            }
+        }
+    }
+    .reviews {
+        padding-bottom: 110px;
+        &__container {
+            display: block;
+            overflow: auto;
+            padding-bottom: 20px;
+        }
+        &__item {
+            width: 520px;
+            height: 401px;
+            padding: 30px 44px 25px 30px;
+            &--one {
+                &::before {
+                    width: 313px;
+                    height: 308px;
+                    bottom: -19px;
+                    right: -100px;
+                    background-size: contain;
+                }
+            }
+            &--two {
+                &::before {
+                    width: 347px;
+                    height: 347px;
+                    background-size: contain;
+                    top: -5px;
+                }
+            }
+        }
+        &__items {
+            display: flex;
+            justify-content: space-between;
+            width: 1600px;
+            align-items: center;
+        }
+        &__item-avatar {
+            width: 130px;
+        }
+        &__item-name {
+            font-size: 24px;
+            line-height: 30px;
+            margin-left: 30px;
+        }
+    }
+    .footer {
+        &__inner {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 25px;
+        }
+        &__text {
+            margin: 0 auto 25px;
+        }
+        &__content {
+            margin-bottom: 32px;
+        }
+        &__text-worktime {
+            margin-bottom: 25px;
+            font-size: 18px;
+            line-height: 22px;
+        }
+        &__text,
+        &__text-info {
+            font-size: 18px;
+            line-height: 22px;
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 832px;
+    }
+    .header {
+        padding: 16px 0;
+    }
+    .promo {
+        &__image {
+            display: none;
+        }
+        &__image-medium {
+            display: block;
+        }
+        &__content {
+            width: 608px;
+            padding: 71px 0 33px 0;
+            text-align: center;
+            margin: 0 auto;
+        }
+        &__title {
+            margin: 0 auto 35px;
+        }
+        &__text-small {
+            margin: 0 auto;
+        }
+        &__list {
+            margin-bottom: 42px;
+        }
+        &__list-item {
+            &--one {
+                &::before {
+                    left: 175px;
+                }
+            }
+            &--two {
+                &::before {
+                    left: 130px;
+                }
+            }
+            &--three {
+                &::before {
+                    left: 50px;
+                }
+            }
+        }
+    }
+    .steps {
+        &__items {
+            column-gap: 15px;
+            row-gap: 20px;
+        }
+    }
+    .calc {
+        &__content {
+            &::after {
+                right: -44px;
+            }
+        }
+    }
+    .quiz {
+        &__title {
+            width: 832px;
+        }
+        &__input-group {
+            width: 350px;
+        }
+        &__label {
+            height: 55px;
+        }
+        &__box {
+            max-width: 715px;
+            grid-gap: 15px;
+            grid-template-columns: repeat(auto-fill, 350px);
+            margin: 0 auto 35px;
+        }
+        &__card {
+            padding: 85px 0;
+            min-height: 482px;
+        }
+        &__card-button {
+            width: 350px;
+            height: 50px;
+            margin-right: 15px;
+        }
+    }
+    .last {
+        &__card {
+            padding: 53px 0;
+            min-height: 545px;
+        }
+        &__card-title {
+            width: 638px;
+            margin: 0 auto 30px;
+        }
+        &__card-text {
+            font-size: 26px;
+            line-height: 32px;
+            margin-bottom: 30px;
+        }
+        &__form-inner {
+            width: 715px;
+            margin: 0 auto 35px;
+        }
+        &__input-group {
+            width: 350px;
+        }
+        &__button-inner {
+            width: 715px;
+            margin: 0 auto 15px;
+        }
+        &__button {
+            width: 350px;
+            height: 55px;
+        }
+    }
+    .button {
+        font-size: 18px;
+        line-height: 22px;
+        &--prev {
+            padding: 10px 141px;
+        }
+    }
+    .profitable {
+        &__item {
+            &--two {
+                &::before {
+                    right: -20px;
+                }
+            }
+        }
+    }
+    .faq {
+        &__item {
+            &__title {
+                font-size: 24px;
+                padding-left: 50px;
+            }
+        }
+    }
+}
+
+@media (max-width: 898px) {
+    .container {
+        max-width: 750px;
+    }
+    .promo {
+        &__image-medium {
+            width: 750px;
+            object-fit: contain;
+        }
+        &__content {
+            padding: 55px 0 25px 0;
+        }
+        &__title {
+            font-size: 42px;
+            line-height: 54px;
+        }
+    }
+    .info {
+        padding-bottom: 60px;
+        &__item {
+            width: 345px;
+        }
+    }
+    .features {
+        padding-bottom: 90px;
+        &__item {
+            width: 335px;
+            min-height: 90px;
+            padding-top: 16px;
+        }
+        &__item-text {
+            font-size: 16px;
+            line-height: 19px;
+        }
+    }
+    .title {
+        font-size: 42px;
+        line-height: 54px;
+    }
+    .calc {
+        padding-bottom: 90px;
+        &__title {
+            width: 750px;
+        }
+        &__box {
+            width: 750px;
+        }
+        &__content {
+            width: 750px;
+            &::after {
+                right: 0;
+            }
+        }
+    }
+    .steps {
+        padding-bottom: 90px;
+        &__title {
+            width: 750px;
+        }
+        &__item {
+            padding: 25px 18px 20px 30px;
+            width: 335px;
+            min-height: 100px;
+        }
+        &__item-number {
+            width: 37px;
+            height: 50px;
+            object-fit: contain;
+        }
+    }
+    .conditions {
+        padding-bottom: 90px;
+        &__title {
+            width: 750px;
+        }
+    }
+    .about {
+        padding-bottom: 90px;
+        &__content-descr {
+            width: 750px;
+        }
+    }
+    .help {
+        padding-bottom: 90px;
+        &__title {
+            width: 750px;
+        }
+        &__descr {
+            width: 700px;
+            font-size: 22px;
+            line-height: 26px;
+        }
+    }
+    .simply {
+        padding: 90px 0;
+    }
+    .quiz {
+        padding-bottom: 90px;
+        &__title {
+            width: 750px;
+        }
+        &__box {
+            max-width: 705px;
+            grid-gap: 15px;
+            grid-template-columns: repeat(auto-fill, 345px);
+            margin: 0 auto 35px;
+        }
+        &__input-group {
+            width: 345px;
+        }
+        &__card-button {
+            width: 345px;
+        }
+    }
+    .last {
+        padding-bottom: 90px;
+        &__card-title {
+            font-size: 42px;
+            line-height: 54px;
+        }
+        &__card-form {
+            width: 705px;
+        }
+        &__input-group {
+            width: 345px;
+        }
+        &__form-inner {
+            width: 705px;
+        }
+        &__button-inner {
+            width: 705px;
+        }
+        &__button {
+            width: 345px;
+        }
+    }
+    .profitable {
+        padding-bottom: 90px;
+        &__item {
+            width: 750px;
+            &--two {
+                &::before {
+                    right: 0;
+                }
+            }
+        }
+        &__item-title {
+            font-size: 39px;
+        }
+    }
+    .faq {
+        padding-bottom: 90px;
+        &__item {
+            &__title {
+                padding-left: 40px;
+            }
+        }
+    }
+    .reviews {
+        padding-bottom: 70px;
+    }
+}
+
+@media (max-width: 767px) {
+    .container {
+        max-width: 540px;
+    }
+    .header {
+        .container {
+            max-width: 100%;
+            width: 100%;
+            padding: 0 15px;
+        }
+        &__inner {
+            margin-bottom: 5px;
+        }
+        &__button-mobile {
+            display: none;
+        }
+        &__content-text {
+            display: none;
+        }
+        &__content-logo {
+            width: 129px;
+            object-fit: contain;
+        }
+        &__text-mobile {
+            display: block;
+            text-align: center;
+            font-weight: 900;
+            font-size: 14px;
+            line-height: 17px;
+            color: #298FEB;
+        }
+    }
+    .promo {
+        padding-bottom: 30px;
+        &__content {
+            padding: 45px 0 25px 0;
+            width: 540px;
+        }
+        &__title {
+            width: 495px;
+            font-size: 36px;
+            line-height: 46px;
+        }
+        &__image-medium {
+            display: none;
+        }
+        &__image-mobile {
+            display: block;
+            margin: 0 auto;
+        }
+        &__list-item {
+            &::before {
+                width: 26px;
+                height: 20px;
+                top: 2px;
+                background-size: contain;
+            }
+            &--one {
+                &::before {
+                    left: 160px;
+                }
+            }
+            &--two {
+                &::before {
+                    left: 115px;
+                }
+            }
+            &--three {
+                &::before {
+                    left: 32px;
+                }
+            }
+        }
+    }
+    .features {
+        padding-bottom: 80px;
+    }
+    .calc {
+        padding-bottom: 80px;
+        &__title {
+            width: 540px;
+            margin: 0 auto 45px;
+        }
+        &__box {
+            width: 540px;
+            padding: 52px 40px;
+            &::before {
+                width: 300px;
+                height: 304px;
+                top: -125px;
+            }
+        }
+        &__content {
+            width: 540px;
+            padding: 52px 40px;
+            &::after {
+                width: 300px;
+                height: 296px;
+            }
+        }
+        &__content-button {
+            width: 460px;
+        }
+    }
+    .title {
+        font-size: 36px;
+        line-height: 46px;
+    }
+    .steps {
+        padding-bottom: 80px;
+        &__title {
+            width: 540px;
+            margin: 0 auto 45px;
+        }
+    }
+    .conditions {
+        padding-bottom: 80px;
+        &__title {
+            width: 540px;
+            margin: 0 auto 45px;
+        }
+    }
+    .about {
+        padding-bottom: 80px;
+        &__content-title {
+            width: 540px;
+            margin: 0 auto 45px;
+        }
+        &__content-descr {
+            width: 540px;
+        }
+        &__image {
+            width: 540px;
+        }
+    }
+    .help {
+        padding: 50px 0;
+        &__title {
+            width: 540px;
+        }
+        &__descr {
+            width: 540px;
+        }
+    }
+    .simply {
+        padding: 80px 0;
+        &__title {
+            width: 345px;
+            margin: 0 auto 45px;
+        }
+    }
+    .quiz {
+        padding-bottom: 80px;
+        &__title {
+            width: 540px;
+            margin: 0 auto 45px;
+        }
+        &__box {
+            max-width: 345px;
+        }
+        &__card {
+            padding: 72px 0;
+            &::before {
+                width: 278px;
+                height: 273px;
+            }
+        }
+        &__card-title {
+            font-size: 36px;
+            line-height: 46px;
+        }
+        &__button-inner {
+            flex-direction: column;
+        }
+        &__card-button {
+            margin-right: 0;
+            margin-bottom: 15px;
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+    .last {
+        padding-bottom: 80px;
+        &__card {
+            padding: 47px 0;
+            &::before {
+                width: 278px;
+                height: 273px;
+            }
+        }
+        &__card-title {
+            font-size: 36px;
+            line-height: 46px;
+            width: 400px;
+            margin: 0 auto 15px;
+        }
+        &__card-text {
+            width: 335px;
+            margin: 0 auto 25px;
+        }
+        &__card-form {
+            width: 345px;
+        }
+        &__form-inner {
+            width: 345px;
+            flex-direction: column;
+        }
+        &__input-group {
+            margin-bottom: 15px;
+            &--last {
+                margin-bottom: 0;
+            }
+        }
+        &__button-inner {
+            width: 345px;
+            flex-direction: column;
+        }
+        &__button {
+            margin-bottom: 15px;
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+    }
+    .profitable {
+        padding-bottom: 80px;
+        &__title {
+            margin-bottom: 45px;
+        }
+        &__item {
+            width: 540px;
+            padding: 29px 37px;
+        }
+        &__item-title {
+            font-size: 36px;
+        }
+        &__item-line {
+            width: 435px;
+        }
+    }
+    .faq {
+        padding-bottom: 80px;
+        &__title {
+            margin-bottom: 45px;
+        }
+        &__item {
+            &__title {
+                padding-left: 30px;
+            }
+        }
+    }
+    .reviews {
+        padding-bottom: 60px;
+    }
+    .footer {
+        &__text-info {
+            width: 425px;
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        max-width: 100%;
+        width: 100%;
+        padding: 0 15px;
+    }
+    .header {
+        &__contacts-link {
+            font-size: 14px;
+            line-height: 17px;
+        }
+    }
+    .promo {
+        .container {
+            padding: 0;
+        }
+        &__content {
+            padding: 35px 0 24px 0;
+            width: 335px;
+        }
+        &__title {
+            font-size: 32px;
+            line-height: 39px;
+            width: 335px;
+            margin: 0 auto 30px;
+        }
+        &__button {
+            width: 335px;
+            height: 50px;
+        }
+        &__text-small {
+            width: 335px;
+            font-size: 16px;
+            line-height: 19px;
+        }
+        &__list-item {
+            margin-bottom: 20px;
+            &::before {
+                top: 3px;
+            }
+            &--one {
+                &::before {
+                    left: 55px;
+                }
+            }
+            &--two {
+                &::before {
+                    left: 15px;
+                }
+            }
+            &--three {
+                padding-left: 38px;
+                &::before {
+                    top: 10px;
+                }
+            }
+        }
+    }
+    .info {
+        &__item-title {
+            font-size: 16px;
+            line-height: 19px;
+        }
+        &__item-descr {
+            font-size: 16px;
+            line-height: 19px;
+        }
+    }
+    .features {
+        padding-bottom: 70px;
+    }
+    .title {
+        font-size: 32px;
+        line-height: 39px;
+    }
+    .calc {
+        padding-bottom: 70px;
+        .container {
+            padding: 0;
+        }
+        &__title {
+            width: 335px;
+            margin: 0 auto 40px;
+        }
+        &__box {
+            padding: 41px 20px;
+            min-width: 375px;
+            max-width: 435px;
+            min-height: 374px;
+            width: 100%;
+            margin-bottom: 40px;
+            &::before {
+                width: 180px;
+                height: 180px;
+                top: -75px;
+                left: -48px;
+            }
+        }
+        &__box-title {
+            font-size: 22px;
+            line-height: 27px;
+            margin: 0 auto 34px;
+        }
+        &__block {
+            &__title {
+                font-size: 16px;
+                line-height: 19px;
+            }
+            &--one {
+                margin-bottom: 72px;
+            }
+        }
+        &__field {
+            padding: 0 23px 20px;
+            font-size: 22px;
+            line-height: 27px;
+            &__text {
+                font-size: 22px;
+                line-height: 27px;
+                bottom: 24px;
+            }
+            &--2 {
+                padding-right: 60px;
+            }
+        }
+        &__range-min-val,
+        &__range-max-val {
+            font-size: 12px;
+            line-height: 15px;
+        }
+        &__content {
+            padding: 45px 20px;
+            min-width: 375px;
+            max-width: 435px;
+            min-height: 468px;
+            width: 100%;
+            &::after {
+                width: 233px;
+                height: 229px;
+            }
+        }
+        &__content-title {
+            font-size: 22px;
+            line-height: 27px;
+            margin-bottom: 30px;
+        }
+        &__content-inner {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 35px;
+        }
+        &__content-result-title {
+            font-size: 32px;
+            line-height: 39px;
+            margin-bottom: 10px;
+        }
+        &__content-result-text {
+            font-size: 16px;
+            line-height: 19px;
+        }
+        &__content-result-box {
+            margin-bottom: 25px;
+            &:last-child {
+                margin-bottom: 0;
+            }
+        }
+        &__content-button {
+            display: block;
+            width: 335px;
+            height: 50px;
+            margin: 0 auto 15px;
+        }
+        &__content-text {
+            width: 335px;
+            margin: 0 auto;
+            font-size: 12px;
+            line-height: 15px;
+        }
+    }
+    .steps {
+        padding-bottom: 70px;
+        &__title {
+            width: 335px;
+            margin: 0 auto 40px;
+        }
+    }
+    .conditions {
+        padding-bottom: 70px;
+        .container {
+            padding: 0;
+        }
+        &__title {
+            width: 335px;
+            margin: 0 auto 40px;
+        }
+        &__item-title {
+            font-size: 22px;
+            line-height: 27px;
+            margin-bottom: 15px;
+        }
+        &__list-item {
+            font-size: 17px;
+        }
+        &__image {
+            width: 375px;
+            object-fit: cover;
+        }
+    }
+    .about {
+        padding-bottom: 70px;
+        &__content-title {
+            width: 335px;
+            margin: 0 auto 40px;
+        }
+        &__content-descr {
+            width: 335px;
+            font-size: 16px;
+            line-height: 19px;
+            margin: 0 auto;
+        }
+        &__image {
+            display: none;
+        }
+    }
+    .button {
+        font-size: 16px;
+        line-height: 19px;
+        &--prev {
+            padding: 12px 141px;
+        }
+    }
+    .help {
+        &__title {
+            font-size: 32px;
+            line-height: 39px;
+            width: 335px;
+            margin: 0 auto 22px; 
+        }
+        &__descr {
+            font-size: 22px;
+            line-height: 27px;
+            width: 335px;
+            margin: 0 auto 40px;
+        }
+        &__button {
+            width: 335px;
+            height: 50px;
+        }
+    }
+    .simply {
+        padding: 70px 0;
+        .container {
+            padding: 0;
+        }
+        &__title {
+            margin: 0 auto 40px;
+        }
+        &__item {
+            padding: 30px 20px 40px;
+            width: 375px;
+            min-height: 199px;
+            margin-bottom: 20px;
+        }
+        &__item-title {
+            font-size: 32px;
+            line-height: 39px;
+            margin-bottom: 15px;
+        }
+        &__item-subtitle {
+            font-size: 22px;
+            line-height: 27px;
+        }
+        &__item-descr {
+            font-size: 16px;
+            line-height: 19px;
+            width: 335px;
+        }
+    }
+    .quiz {
+        padding-bottom: 70px;
+        .container {
+            padding: 0;
+        }
+        &__title {
+            width: 335px;
+            margin: 0 auto 40px;
+        }
+        &__card {
+            padding: 62px 0;
+            &::before {
+                width: 196px;
+                height: 193px;
+                top: -69px;
+                left: -34px;
+            }
+        }
+        &__card-title {
+            font-size: 32px;
+            line-height: 39px;
+        }
+        &__input-group {
+            width: 335px;
+        }
+        &__label {
+            height: 50px;
+            &__text {
+                font-size: 16px;
+                line-height: 19px;
+            }
+        }
+        &__card-button {
+            width: 335px;
+            height: 50px;
+        }
+    }
+    .last {
+        padding-bottom: 70px;
+        .container {
+            padding: 0;
+        }
+        &__card {
+            padding-top: 40px;
+            &::before {
+                width: 196px;
+                height: 193px;
+                top: -69px;
+                left: -34px;
+            }
+        }
+        &__card-title {
+            font-size: 32px;
+            line-height: 39px;
+            width: 335px;
+        }
+        &__card-text {
+            font-size: 22px;
+            line-height: 27px;
+        }
+        &__input-group {
+            width: 335px;
+        }
+        &__input {
+            height: 50px;
+            font-size: 16px;
+            line-height: 19px;
+        }
+        &__button {
+            width: 335px;
+            height: 50px;
+        }
+        &__card-copy {
+            font-size: 12px;
+            line-height: 15px;
+        }
+    }
+    .profitable {
+        padding-bottom: 70px;
+        .container {
+            padding: 0;
+        }
+        &__title {
+            width: 335px;
+            margin: 0 auto 40px;
+        }
+        &__item {
+            padding: 29px 20px;
+            width: 375px;
+            min-height: 377px;
+            &--two {
+                &::before {
+                    width: 310px;
+                    height: 310px;
+                    top: 200px;
+                }
+            }
+        }
+        &__item-title {
+            font-size: 32px;
+            line-height: 39px;
+        }
+        &__item-descr {
+            font-size: 16px;
+            line-height: 19px;
+        }
+        &__item-line {
+            width: 335px;
+            margin: 0 auto 5px;
+        }
+        &__item-text {
+            font-size: 18px;
+            line-height: 22px;
+        }
+        &__item-text-bold {
+            font-size: 18px;
+            line-height: 22px;
+        }
+    }
+    .faq {
+        padding-bottom: 70px;
+        .container {
+            padding: 0;
+        }
+        &__title {
+            width: 335px;
+            margin: 0 auto 40px;
+        }
+        &__box {
+            margin: 0 auto 25px;
+        }
+        &__item {
+            &__title {
+                font-size: 22px;
+                line-height: 29px;
+                padding-top: 12px;
+                padding-bottom: 12px;
+                padding-left: 20px;
+            }
+            &--active {
+                .faq__item__text {
+                    font-size: 16px;
+                    line-height: 19px;
+                    padding-top: 20px;
+                    padding-bottom: 20px;
+
+                }
+            }
+        }
+        &__button {
+            width: 335px;
+            height: 50px;
+        }
+    }
+    .reviews {
+        padding-bottom: 50px;
+        .container {
+            padding: 0;
+        }
+        &__title {
+            width: 335px;
+            margin: 0 auto 40px;
+        }
+        &__items {
+            width: 1155px;
+        }
+        &__item {
+            padding: 18px 17px 25px 20px;
+            width: 375px;
+            height: 357px;
+        }
+        &__item-avatar {
+            width: 100px;
+        }
+        &__item-name {
+            font-size: 22px;
+            line-height: 27px;
+            margin-left: 15px;
+        }
+        &__item-text {
+            font-size: 16px;
+            line-height: 19px;
+        }
+        &__item-date {
+            text-align: center;
+            font-size: 16px;
+            line-height: 19px;
+        }
+    }
+    .footer {
+        &__content-text {
+            display: none;
+        }
+        &__content-logo {
+            width: 116px;
+            object-fit: contain;
+        }
+        &__text-worktime {
+            font-size: 16px;
+            line-height: 19px;
+        }
+        &__link-phone {
+            font-size: 22px;
+            line-height: 27px;
+        }
+        &__text,
+        &__text-info {
+            font-size: 16px;
+            line-height: 19px;
+            width: 335px;
+        }
+    }
+    .modal {
+        &-main__dialog {
+            width: 355px;
+            height: 536px;
+        }
+        &-main__title {
+            font-size: 32px;
+            line-height: 39px;
+            margin-bottom: 35px;
+        }
+        &-main__close {
+            width: 30px;
+            height: 30px;
+            top: 25px;
+            right: 20px;
+        }
+        &-main__input-group {
+            width: 335px;
+            margin: 0 auto 10px;
+            &:last-of-type {
+                margin-bottom: 35px;
+            }
+        }
+        &-main__input {
+            font-size: 16px;
+            line-height: 19px;
+            height: 50px;
+        }
+        &-main__button {
+            width: 335px;
+            height: 50px;
+        }
+        &-main__text-small {
+            width: 335px;
+            font-size: 12px;
+            line-height: 15px;
+        }
+    }
+}

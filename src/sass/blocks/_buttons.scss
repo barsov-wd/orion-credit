@@ -1,0 +1,26 @@
+.button {
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: linear-gradient(360deg, #287C00 -28.43%, #A1FF74 96.89%);
+    box-shadow: 2px 3px 6px rgba(81, 138, 54, 0.4);
+    border-radius: 30px;
+    color: #FFFFFF;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 24px;
+    transition: 0.3s;
+    &--prev {
+        color: #287C00;
+        display: inline-block;
+        vertical-align: middle;
+        border-radius: 30px;
+        border: 3px solid transparent;
+        background: linear-gradient(360deg, #287C00 -28.43%, #A1FF74 96.89%) border-box;
+        box-shadow: inset 0px 0px 0px 100vw #fff;
+        padding: 15px 162px;
+    }
+    &:hover {
+        transform: scale(1.03);
+    }
+}
